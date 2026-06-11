@@ -11,7 +11,6 @@ async def test_hello(dut):
     assert(True)
 
 
-
 def test_eth_tx_runner():
     
     sim = os.getenv("SIM", "verilator")
